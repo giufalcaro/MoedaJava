@@ -46,6 +46,7 @@ public class MoedaController {
 		}
 	}
 	
+	
 	  @GetMapping("/quotacao")
 	  public ResponseEntity<Flux<String>> getTutorialById() {
 			try {
